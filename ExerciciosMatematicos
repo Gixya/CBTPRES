@@ -1,0 +1,77 @@
+// Exercício 1: Soma de dois números
+/*Console.WriteLine("Soma de dois números.");
+
+Console.WriteLine("Informe o valor do primeiro número: ");
+double N1 = Convert.ToDouble(Console.ReadLine());
+
+Console.WriteLine("Informe o valor do segundo número: ");
+double N2 = Convert.ToDouble(Console.ReadLine());
+
+double SOMA = N1 + N2;
+Console.WriteLine("O valor da soma dos produtos é " + SOMA);
+*/
+
+// Exercício 2: Cálculo da idade
+/*Console.WriteLine("Cálculo da idade.");
+
+Console.Write("Informe o ano do seu nascimento: ");
+double Birth = Convert.ToDouble(Console.ReadLine());
+
+Console.Write("Informe o ano desejado: ");
+double ANO = Convert.ToDouble(Console.ReadLine());
+
+double IDADE = ANO - Birth;
+Console.WriteLine("Você terá " + IDADE  + " anos no ano de " + ANO );*/
+
+
+/*// Exercício 3: Conversão de quilômetros para metros
+Console.WriteLine("Conversão de quilômetros para metros.");
+
+Console.WriteLine("Informe a distância em quilômetros: ");
+double KM = Convert.ToDouble(Console.ReadLine());
+
+double METROS = KM * 1000;
+Console.WriteLine(KM + " quilômetros é igual a " +  METROS + " metros." );*/
+
+
+// Exercício 4: Cálculo de média de 4 notas escolares
+/*Console.WriteLine("Calculo de média de 4 notas escolares.");
+
+Console.WriteLine("Informe a primeira nota:");
+double N1 = Convert.ToDouble(Console.ReadLine());
+
+Console.WriteLine("Informe a segunda nota:");
+double N2 = Convert.ToDouble(Console.ReadLine());
+
+Console.WriteLine("Informe a terceira nota:");
+double N3 = Convert.ToDouble(Console.ReadLine());
+
+Console.WriteLine("Informe a quarta nota:");
+double N4= Convert.ToDouble(Console.ReadLine());
+
+double MEDIA = (N1 + N2 + N3 + N4) /4 ;
+Console.WriteLine("A sua média escolar é " + MEDIA);
+*/
+// Exercício 5: Conversão de moeda
+/*Console.WriteLine("Conversão de real para dólar.");
+
+Console.WriteLine("Informe o valor em reais a ser convertido: ");
+double REAL = Convert.ToDouble(Console.ReadLine());
+
+Console.WriteLine("Informe a cotação do dólar atual: ");
+double DOLAR = Convert.ToDouble(Console.ReadLine());
+
+double CONVERSAO = REAL / DOLAR;
+Console.WriteLine("O valor após a conversão é " + CONVERSAO + " Dólares");
+*/
+// Exercício 6: Cálculo Volume de um cilindro
+Console.WriteLine("Cálculo do volume de um cilindro: ");
+
+Console.WriteLine("Informe  o raio da base");
+double RAIO = Convert.ToDouble(Console.ReadLine());
+
+Console.WriteLine("Informe a altura: ");
+double ALT = Convert.ToDouble(Console.ReadLine());
+
+double VOLUME = (( RAIO * RAIO ) * ALT ) * 3.14 ;
+Console.WriteLine("O volume do cilindro é " + VOLUME);
